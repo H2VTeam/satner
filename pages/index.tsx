@@ -1,16 +1,15 @@
 import Image from "next/image";
 import Header from '../components/layouts/Header'
 import Head from 'next/head'
-import { Button } from "@mui/material";
+import { Button, Form } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
       <Head>
-          <title>Satner qPortfolio</title>
+          <title>Satner Portfolio</title>
       </Head>
       <Header />
-      <Button>okokok</Button>
     </>
   );
 }
