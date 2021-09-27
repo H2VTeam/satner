@@ -8,7 +8,6 @@ import {
 import Link from 'next/link';
 
 const Header: React.FC = () => {
-  const a: String = 'okok';
   return (
     <Navbar
       collapseOnSelect
