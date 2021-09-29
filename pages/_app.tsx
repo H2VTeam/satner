@@ -1,10 +1,15 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'slick-carousel/slick/slick.scss';
+import 'slick-carousel/slick/slick-theme.scss';
 import '../styles/header.scss';
 import '../styles/home.scss';
 import '../styles/footer.scss';
 import '../styles/newsletter.scss';
+import '../styles/testimonial.scss';
+import '../styles/project.scss';
+import '../styles/style.scss';
 
 export default function App({
   Component,

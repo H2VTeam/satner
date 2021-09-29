@@ -1,0 +1,33 @@
+._banner {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 415px;
+    width: 100%;
+    background: url('/images/_banner.png');
+    background-size: cover;
+    background-position: center;
+    ._text {
+      h2 {
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      a {
+        font-size: 14px;
+        color: #fff !important;
+        font-family: 'Roboto', sans-serif;
+        margin-right: 20px;
+        position: relative;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -1,14 +1,21 @@
-import { AppProps } from 'next/app'
-import Head from 'next/head'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import Header from '../../components/layouts/Header';
+import Head from 'next/head';
+import Footer from '../../components/layouts/Footer';
+import Newsletter from '../../components/layouts/Newsletter';
+import Project from '../../components/home/Project';
+import Portfolio1 from '../../components/layouts/Portfolio';
 
-export default function Portfolio({ Component, pageProps }: AppProps) {
+export default function Portfolio() {
   return (
     <div>
       <Head>
         <title>Portfolio</title>
       </Head>
-      Portfolio page
+      <Header />
+      <Portfolio1 />
+      <Project />
+      <Newsletter />
+      <Footer />
     </div>
-  )
+  );
 }

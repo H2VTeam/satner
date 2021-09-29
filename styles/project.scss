@@ -1,0 +1,96 @@
+.project {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+  margin-top: 170px;
+  .project_title {
+    margin-bottom: 100px;
+    text-align: left;
+    h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      line-height: 50px;
+      text-transform: uppercase;
+      color: #000;
+    }
+  }
+  .project_filter {
+    margin-bottom: 50px;
+    .nav-tabs {
+      border-bottom: none;
+    }
+    .nav-item {
+      margin-right: 50px;
+      text-transform: uppercase;
+      .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+        &:hover {
+          border-color: transparent;
+          color: #854fee !important;
+        }
+      }
+    }
+    .active {
+      border-color: transparent !important;
+      color: #854fee !important;
+    }
+  }
+  .project_content {
+    .project_item {
+      margin-bottom: 50px;
+      transform: translate3d(0px, 0px, opx);
+      transition-property: opacity, transform;
+      transition-duration: 0.4s;
+      transition-delay: 0ms;
+      .img {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        svg {
+          position: absolute;
+          top: 25%;
+          left: 25%;
+          visibility: hidden;
+          font-size: 100px;
+          transition: all 0.4s ease 0s;
+          color: #fff;
+          transform: translate(-50%, -50%);
+        }
+        .overlay {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          transition: all 0.4s ease 0s;
+        }
+        &:hover {
+          .overlay {
+            background: rgba(77, 87, 222, 0.5);
+          }
+          svg {
+            visibility: visible;
+            top: 50%;
+            left: 50%;
+          }
+        }
+      }
+      .text {
+        margin-top: 30px;
+        h4 {
+          text-transform: uppercase;
+          font-size: 20px;
+          color: #000;
+          margin-bottom: 0;
+          a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
