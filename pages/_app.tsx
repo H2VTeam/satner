@@ -3,6 +3,8 @@ import Head from 'next/head';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/header.scss';
 import '../styles/home.scss';
+import '../styles/footer.scss';
+import '../styles/newsletter.scss';
 
 export default function App({
   Component,

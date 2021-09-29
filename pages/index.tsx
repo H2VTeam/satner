@@ -4,6 +4,9 @@ import Head from 'next/head';
 import Banner from '../components/home/Banner';
 import About from '../components/home/About';
 import Brand from '../components/home/Brand';
+import Feature from '../components/home/Feature';
+import Footer from '../components/layouts/Footer';
+import Newsletter from '../components/layouts/newsletter';
 
 export default function Home() {
   return (
@@ -15,6 +18,9 @@ export default function Home() {
       <Banner />
       <About />
       <Brand />
+      <Feature />
+      <Newsletter />
+      <Footer />
     </>
   );
 }

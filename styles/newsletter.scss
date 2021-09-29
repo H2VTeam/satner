@@ -1,0 +1,56 @@
+.newletter {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #777;
+  .row {
+    background: url('/images/subcribe.png');
+    padding: 150px 0;
+    h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #fff;
+      font-size: 30px;
+    }
+    p {
+      color: #fff4fa;
+      font-size: 14px;
+    }
+
+    form {
+      margin-top: 45px;
+      input[type='email'] {
+        min-width: 380px;
+        max-width: 380px;
+        line-height: 48px;
+        padding: 0 25px;
+        border: 1px solid #fff;
+        background: transparent;
+        font-weight: 400;
+        border-radius: 5px;
+        color: #fff;
+        &::placeholder {
+          color: #fff7f9;
+        }
+      }
+      input[type='button'] {
+        margin-left: 10px;
+        background: #fff;
+        text-transform: uppercase;
+        color: #222;
+        border-radius: 5px;
+        line-height: 48px;
+        font-size: 14px;
+        font-family: 'Rubik', sans-serif;
+        padding: 0 38px;
+        cursor: pointer;
+      }
+
+      @media (max-width: 767px) {
+        input[type='button'] {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
